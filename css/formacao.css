@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,300&family=Raleway:wght@500&display=swap');
+.div-formacao{
+    width: 311px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+    gap: 32px;
+    background: #EAF2FD
+}
+.Titulo-formacao{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #464646;
+}
+.titulo{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+}
+.subtitulo{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #464646;
+}
+.container-formacao{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+}
+.container-experiencia{
+    width: 296px;
+    height: 169px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+}
+.imagem-formacao{
+    width: 296px;
+    height: 118px;
+}
+@media (min-width:768px) and (max-width:1439px) {
+    .div-formacao{
+        width: 704px;
+        height: 227px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 32px;
+        gap: 32px;
+        background: #EAF2FD
+    }
+    .container-formacao{
+        width: 704px;
+        height: 169px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 16px;
+    }
+    .container-experiencia{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 8px;
+    }
+    .imagem-formacao{
+        width: 224px;
+        height: 118px;
+    }
+}
+@media (min-width:1440px) {
+    .div-formacao{
+        width: 1276px;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 82px;
+        gap: 32px;
+        background: #EAF2FD
+    }
+    .container-formacao{
+        width: 1136px;
+        height: 347px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 16px;
+    }
+    .container-experiencia{
+        height: 347px;
+        width: 368px;
+        gap: 8px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+    }
+    .imagem-formacao{
+        width: 368px;
+        height: 286px;
+    }
+}

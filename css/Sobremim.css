@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,300&family=Raleway:wght@500&display=swap');
+
+.sobremim{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 375px;
+    height: 350px;
+    background-color: #EAF2FD;
+}
+.container-sobremim{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    width: 328px;
+    height: 318px; 
+}
+.Titulo-Sobremim{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #464646;
+}
+.div-sobremim{
+    width: 328px;
+    height: 208px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #464646
+}
+@media (min-width:768px) and (max-width:1439px) {
+    .sobremim{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+    gap: 10px;
+    width: 704px;
+    height: 254px;
+    background: #EAF2FD;
+    }
+    .container-sobremim{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px; 
+    width: 704px;
+    height: 254px;
+        }
+    .Titulo-Sobremim{
+    width: 130px;
+    height: 26px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #464646;
+        }
+    .div-sobremim{
+     width: 704px;
+    height: 112px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #464646;
+        }
+}
+@media (min-width:1440px) {
+    .sobremim{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        gap: 10px;
+        width: 1440px;
+        height: 255px;
+        background: #EAF2FD;
+        }
+        .container-sobremim{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 0px;
+            gap: 16px;
+            width: 1136px;
+            height: 255px; 
+        }
+        .Titulo-Sobremim{
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 26px;
+            color: #464646;
+        }
+        .div-sobremim{
+            width: 751px;
+            height: 133px;
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 16px;
+            color: #464646
+        }
+
+}
